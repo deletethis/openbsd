@@ -2,6 +2,7 @@
 This document is a series of notes, commands, code snippets, and other bits of information that I have found useful during my time using OpenBSD.
 Most of the information in this document is stolen from mailing list archives, reddit (unfortunately), various forums, OpenBSD's FAQ, and DuckDuckGo searches.
 If something is listed in this document it is because I personally found it useful, and it is my hope that someone else may too find it useful.
+This will continue to be updated as time goes on.
 
 You can download OpenBSD from any of these mirrors:
 - https://www.openbsd.org/ftp.html
