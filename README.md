@@ -12,35 +12,6 @@ I recommend using the -current branch of OpenBSD for daily drivers and workstati
 
 ## Miscellaneous
 
-### Xenodm
-```
-vi /etc/X11/xenodm/Xsetup_0
-```
-
-```
-#!/bin/sh
-# $OpenBSD: Xsetup_0.in,v 1.1 2021/08/30 15:38:27 matthieu Exp $
-
-prefix="/usr/X11R6"
-exec_prefix="${prefix}"
-
-# ${exec_prefix}/bin/xsetroot -fg \#6f6f6f -bg \#bfbfbf -bitmap ${prefix}/include/X11/bitmaps/root_weave
-
-xsetroot -solid black
-
-# ${exec_prefix}/bin/xconsole -geometry 480x130-0-0 -daemon -notify -verbose -fn fixed -exitOnFail
-
-#  install package openbsd-backgrounds
-#  then uncomment:
-#
-# if test -x /usr/local/bin/openbsd-wallpaper
-# then
-#       /usr/local/bin/openbsd-wallpaper
-# fi
-
-# sxpm OpenBSD.xpm &
-```
-
 ### Setup Doas
 ```
 echo -e permit nopass $USER >> /etc/doas.conf
