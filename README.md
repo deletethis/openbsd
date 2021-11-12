@@ -14,7 +14,7 @@ I recommend using the -current branch of OpenBSD for daily drivers and workstati
 
 ### Setup Doas
 ```
-echo -e permit nopass $USER >> /etc/doas.conf
+echo permit persist $USER > /etc/doas.conf
 ```
 
 ## Multimedia
