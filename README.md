@@ -7,7 +7,7 @@ You can download OpenBSD from any of these mirrors:
 The FAQ is a great place to start if you're looking for more information on getting started with OpenBSD:
 - http://www.openbsd.org/faq/index.html
 
-I recommend using the -current branch of OpenBSD for daily drivers and workstations.
+I recommend using the -current branch of OpenBSD for daily drivers and workstations:
 - http://www.openbsd.org/faq/current.html
 
 ## Miscellaneous
