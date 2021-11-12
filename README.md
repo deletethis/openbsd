@@ -35,7 +35,12 @@ echo kern.audio.record=1 >> /etc/sysctl.conf
 ffplay -f v4l2 -input_format mjpeg -video_size 1920x1080 -i /dev/video1
 ```
 
-#### Record Screen and Audio
+#### Record Screen
 ```
-ffmpeg -f x11grab -s 1366x768 -r 30 -i $DISPLAY -c:v libx264 -preset ultrafast ~/Videos/video.mkv & aucat -o ~/Videos/audio.wav
+ffmpeg -f x11grab -s 1366x768 -r 30 -i $DISPLAY -c:v libx264 -preset ultrafast ~/Videos/video.mkv
+```
+
+#### Record Audio
+```
+aucat -o ~/Videos/audio.wav
 ```
