@@ -44,3 +44,4 @@ ffmpeg -f x11grab -s 1366x768 -r 30 -i $DISPLAY -c:v libx264 -preset ultrafast ~
 ```
 aucat -o ~/Videos/audio.wav
 ```
+
