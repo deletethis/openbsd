@@ -45,3 +45,8 @@ ffmpeg -f x11grab -s 1366x768 -r 30 -i $DISPLAY -c:v libx264 -preset ultrafast ~
 aucat -o ~/Videos/audio.wav
 ```
 
+#### Merge Audio/Video
+```
+ffmpeg -i video.mkv -i audio.wav -c:v copy -c:a aac output.mp4
+```
+
